@@ -1,6 +1,6 @@
 import gifProvider from '../providers/gifProvider';
 
-import { progress, cron } from '../../setup';
+import { progress, cronProgress } from '../../setup';
 import {
 	isABotMessage,
 	isDirectMessage,
@@ -27,7 +27,7 @@ export async function replyMessage(client, message) {
 			case 'iniciar': {
 				message.react('👍');
 
-				const job = cron.getJob();
+				const job = cronProgress.getJob();
 				if (job.running) {
 					message.channel.send('Já estou contando os dias!');
 				} else {
@@ -42,7 +42,7 @@ export async function replyMessage(client, message) {
 			case 'parar': {
 				message.react('👍');
 
-				const job = cron.getJob();
+				const job = cronProgress.getJob();
 				if (job.running) {
 					job.stop();
 					progress.restartProgress();
@@ -58,7 +58,7 @@ export async function replyMessage(client, message) {
 			case 'errou': {
 				message.react('🤦🏽');
 
-				const job = cron.getJob();
+				const job = cronProgress.getJob();
 
 				if (job.running) {
 					progress.restartProgress();
