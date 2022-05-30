@@ -1,16 +1,9 @@
 <p align="center">
-  <img src="https://github.com/TBDC-Agro-Softwares/bug-hunter/blob/main/images/barbarian-homer.png" alt="Barbarian Homer" width="280"/>
+  <img src="https://github.com/TBDC-Agro-Softwares/bug-hunter/blob/main/images/barbarian-homer.webp" alt="Barbarian Homer" width="280"/>
 </p>
 
 <p align="center">	
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/TBDC-Agro-Softwares/bug-hunter?color=FBC400">
-  <a href="https://github.com/TBDC-Agro-Softwares/bug-hunter/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TBDC-Agro-Softwares/bug-hunter?color=FBC400">
-  </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-FBC400">
-  <a href="https://github.com/TBDC-Agro-Softwares/bug-hunter/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/TBDC-Agro-Softwares/proffy?color=FBC400&logo=github">
-  </a>
 </p>
 
 <div align="center">A simple bot to count days without bugs</div>
